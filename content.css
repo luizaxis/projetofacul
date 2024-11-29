@@ -1,0 +1,364 @@
+.top1, .top3, .top3-page2, .top3-page3, .top3-page4, .top3-page5, .top3-page6 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 25rem;
+    max-width: 75rem;
+    margin-left: 380px;
+    margin-right: auto;
+}
+.text-content {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.top1-content1 {
+    font-size: 3.3rem;
+    color: #1C244B;
+    margin: 0;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #6d6c6c;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.img-content {
+    width: 40rem;
+    height: auto;
+}
+
+.img-content1 {
+    width: 40rem;
+    height: auto;
+}
+
+.img-content2 {
+    width: 40rem;
+    height: auto;
+}
+
+.img-content3 {
+    width: 40rem;
+    height: auto;
+}
+
+.img-content4 {
+    width: 40rem;
+    height: auto;
+    border: 3px solid darkslategrey;
+    border-radius: 10px;
+    margin-right: 71px;
+}
+
+.img-content5 {
+    border: 3px solid black;
+    border-radius: 8px;
+    margin-left: 4rem;
+}
+
+.img-content6 {
+    width: 40rem;
+    height: auto;
+    border: 3px solid darkslategrey;
+    border-radius: 10px;
+    margin-right: 71px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.whats-border {
+    border: 1px solid #7DE29D;
+    padding: 2px 90px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 45px;
+    animation: blink 0.5s infinite;
+    text-decoration: none;
+}
+
+.number {
+    color: #7DE29D;
+    margin: 0;
+    margin-left: 1rem;
+    cursor: pointer;
+    animation: blink 0.5s infinite;
+}
+
+.number:hover {
+    color: #FD3A4A;
+    transition: color 0.3s;
+}
+
+@keyframes blink {
+    0%, 100% {
+        border-color: rgb(143, 238, 143);
+        color: rgb(143, 238, 143);
+    }
+    50% {
+        border-color: transparent;
+        color: transparent;
+    }
+}
+
+.whats {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 3.125rem;
+    animation: blink-image 0.5s infinite;
+}
+
+@keyframes blink-image {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.button {
+    padding: 15px 65px;
+    border-radius: 25px;
+    background-color: #FD3A4A;
+    color: white;
+    font-family: Poppins, sans-serif;
+    border: 1px solid #6110E4;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: white;
+    color: #6110E4;
+}
+
+.top2 {
+    background-color: #F4F2F6;
+    padding: 50px;
+    margin: 100px 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.top2-content1 {
+    font-size: 3.3rem;
+    font-family: Poppins, sans-serif;
+    color: #1C244B;
+    margin: 0;
+}
+
+.videoframe-content1 {
+    width: 680px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+    border: 0.1px solid black;
+    margin-top: 50px;
+}
+
+.description-content2 {
+    color: #6d6c6c;
+    font-size: 1rem;
+}
+
+.intro-container {
+    display: flex;
+    gap: 8rem;
+    margin-top: 20px;
+}
+
+.intro {
+    background-color: white;
+    padding: 10px;
+    width: calc(370px + 20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+    margin-left: 6rem;
+}
+
+.intro-content {
+    width: 280px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.subtitle-intro {
+    font-size: 1.3rem;
+}
+
+.description-intro {
+    color: #6d6c6c;
+}
+
+.passo-1 {
+    background-color: white;
+    padding: 10px;
+    width: calc(370px + 20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.passo1-container {
+    display: flex;
+    gap: 8rem;
+    margin: 0;
+}
+
+.passo1-content {
+    width: 280px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.subtitle-passo1 {
+    font-size: 1.3rem;
+}
+
+.description-passo1 {
+    color: #6d6c6c;
+}
+
+.passo-2 {
+    background-color: white;
+    padding: 10px;
+    width: calc(370px + 20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.passo2-content {
+    width: 280px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.subtitle-passo2 {
+    font-size: 1.3rem;
+}
+
+.description-passo2 {
+    color: #6d6c6c;
+}
+
+.passo3-container {
+    display: flex;
+    gap: 8rem;
+    margin-top: 20px;
+}
+
+.passo-3 {
+    background-color: white;
+    padding: 10px;
+    width: calc(370px + 20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+    margin-left: 6rem;
+    margin-top: 0;
+}
+
+.passo3-content {
+    width: 280px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.subtitle-passo3 {
+    font-size: 1.3rem;
+}
+
+.description-passo3 {
+    color: #6d6c6c;
+}
+
+.passo-4 {
+    background-color: white;
+    padding: 10px;
+    width: calc(370px + 20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.passo4-content {
+    width: 280px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.subtitle-passo4 {
+    font-size: 1.3rem;
+}
+
+.description-passo4 {
+    color: #6d6c6c;
+}
+
+.passo-5 {
+    background-color: white;
+    padding: 10px;
+    width: calc(370px + 20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.passo5-content {
+    width: 280px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.subtitle-passo5 {
+    font-size: 1.3rem;
+}
+
+.description-passo5 {
+    color: #6d6c6c;
+}
+
+.passo-6 {
+    background-color: white;
+    padding: 10px;
+    width: calc(370px + 20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.3);
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.passo6-content {
+    width: 280px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.subtitle-passo6 {
+    font-size: 1.3rem;
+}
+
+.description-passo6 {
+    color: #6d6c6c;
+}

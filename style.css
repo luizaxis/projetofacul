@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+u {
+    color: #2a026b;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: white;
+}
+
+.gwingles-logo {
+    margin-left: 18px;
+    width: 14rem;
+}
+
+.final-page {
+    margin-top: 15rem;
+}
+
+.title1 {
+    text-align: center;
+}
+
+.description-final {
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.final-images {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 30px;
+}
+
+
+.image-item {
+    text-align: center;
+}
+
+
+.final-images img {
+    width: 280px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.final-images img:hover {
+    transform: scale(1.2);
+}
+
+
+.image-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+}
+
+.image-description {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    color: grey;
+    margin-top: 5px;
+    line-height: 1.5;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-2 {
+    padding: 15px 65px;
+    border-radius: 25px;
+    background-color: #FD3A4A;
+    color: white;
+    font-family: Poppins, sans-serif;
+    border: 1px solid #6110E4;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.button-2:hover {
+    background-color: white;
+    color: #6110E4;
+}
+
+.text-metodos {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.img-galery {
+    margin-left: 10.5rem;
+    width: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-title2 {
+    margin-left: 170px;
+}
+
+.final-images1 img:hover {
+    transform: scale(1.2);
+}
+
+.img-cerebro, .img-chat, .img-notamusical {
+    margin-left: 20rem;
+    width: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.final-images1 {
+    display: flex;
+    margin-right: 100px;
+}
+
+.image-title3, .image-title4, .image-title5 {
+    margin-left: 19rem;
+}
+
+.image-item2, .image-item3, .image-item4 {
+    text-align: center;
+}
+
+.description-img1 {
+    font-family: Poppins, sans-serif;
+    font-size: 15.2px;
+    text-align: initial;
+    color: grey;
+    margin-left: 10.0rem;
+}
+
+.description-img2 {
+    font-family: Poppins, sans-serif;
+    font-size: 15.2px;
+    text-align: left;
+    color: grey;
+    margin-left: 18.9rem;
+}
+
+.description-img3 {
+    font-family: Poppins, sans-serif;
+    font-size: 15.2px;
+    text-align: left;
+    color: grey;
+    margin-left: 19rem;
+}
+
+.description-img4 {
+    font-family: Poppins, sans-serif;
+    font-size: 15.2px;
+    color: grey;
+    margin-left: 19rem;
+}
+
+.title-comentario {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.feedbacks {
+    display: flex;
+    gap: 30rem;
+    margin-right: 150px;
+}
+
+.sara, .vitoria {
+    border-radius: 50rem;
+    width: 80px;
+}
+
+.feedback1 {
+    margin-left: 250px;
+    color: grey;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+}
+
+.feedback2 {
+    color: grey;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+}
+
+.nome-sara, .nome-vitoria {
+    color: black;
+}
+
+.info1 {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.para-info {
+    color: grey;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+.button-final {
+    padding: 15px 65px;
+    border-radius: 25px;
+    background-color: #FD3A4A;
+    color: white;
+    font-family: Poppins, sans-serif;
+    border: 1px solid #6110E4;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.button-final:hover {
+    background-color: white;
+    color: #6110E4;
+}
+
+.rodape1 {
+    margin-top: 150px;
+    display: flex;
+    gap: 377px;
+}
+
+address {
+    margin-top: 5.7rem;
+    color: grey;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.endereco {
+    color: grey;
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 30px;
+}
+
+.redes {
+    display: flex;
+    margin-top: 80px;
+}
+
+footer {
+    padding: 0.03px;
+    background-color: #32174D;
+    color: white;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+.logogw-final {
+    width: 250px;
+}
+
+.endereco {
+    background-color: white;
+}

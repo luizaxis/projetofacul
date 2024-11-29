@@ -1,0 +1,170 @@
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .gwingles-logo {
+        width: 12rem;
+    }
+
+    .final-images {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .final-images img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .button-2, .button-final {
+        padding: 12px 45px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top1, .top3, .top3-page2, .top3-page3, .top3-page4, .top3-page5, .top3-page6 {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .top1-content1, .top2-content1 {
+        font-size: 2.5rem;
+    }
+
+    .img-content, .img-content1, .img-content2, .img-content3, .img-content4 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .intro-container, .passo1-container, .passo2-container, .passo3-container, .passo4-container, .passo5-container, .passo6-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img-galery {
+        margin-left: 0;
+        width: 80px;
+    }
+
+    .text-metodos {
+        margin-top: 150px;
+    }
+
+    .rodape1 {
+        display: block;
+        gap: 10px;
+    }
+
+    .redes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedbacks {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .top1, .top3, .top3-page2, .top3-page3, .top3-page4, .top3-page5, .top3-page6 {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .final-images {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .final-images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .button-2, .button-final {
+        padding: 14px 55px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top1-content1 {
+        font-size: 2.8rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .img-content, .img-content1, .img-content2, .img-content3 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .intro-container, .passo1-container, .passo2-container, .passo3-container, .passo4-container, .passo5-container, .passo6-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .button {
+        padding: 14px 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .redes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logogw-final {
+        flex-direction: column;
+        width: 100rem;
+        height: 15rem;
+        margin-left: 260px;
+    }
+
+
+    .button-final {
+        margin-left: 300px;
+    }
+
+    .endereco {
+        margin-left: 50px;
+    }
+
+    .title-comentario {
+        margin-left: 650px;
+    }
+
+    .sara {
+        margin-right: 450px;
+    }
+
+    .vitoria {
+        margin-right: 450px;
+    }
+
+    .feedback1 {
+        margin-right: 200px;
+    }
+
+    .feedback2 {
+        margin-right: 850px;
+    }
+
+    .feedbacks {
+        gap: 2px;
+}
+
+}
